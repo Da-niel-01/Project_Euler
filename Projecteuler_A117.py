@@ -20,3 +20,21 @@ def M(n,b,g,r):
 
 #print(M(6,2,2,2))
 print(f(50))
+
+
+##es ist fibonacci
+
+
+def t(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    elif n == 2:
+        return 2
+    elif n == 3:
+        return 3
+    else:
+        return t(n-1)+t(n-2)+t(n-3)+t(n-4)
+
+print(t(50))    
